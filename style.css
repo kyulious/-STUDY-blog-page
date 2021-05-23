@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    font-family:'Manrope', sans-serif;
+}
+.gallery #nav{
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/bg-pattern-intro.svg');
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: 15% 48%;
+    background-color: rgb(248, 131, 151);
+    border: 1px solid rgb(248, 131, 151);
+    height: 600px;
+    border-bottom-left-radius: 80px;
+    width: 100vw;
+    
+}
+#nav>h1{
+    color: #fff;
+    font-size: 42px;
+    position: absolute;
+    top: 70px;
+    left: 260px;
+    font-family: 'Overpass', sans-serif;
+}
+.first>h3{
+    color: #fff;
+    position: absolute;
+    top: 99px;
+    left: 450px;
+}
+.first #arrow1{
+    position: absolute;
+    top: 113px;
+    left: 535px;
+}
+.first>h4{
+    display: none;
+}
+.arrow-up{
+    display: none;
+}
+.item1{
+    color: rgb(63, 62, 62);
+    font-size: 14px;
+    position: relative;
+    top: 130px;
+    left: 400px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 22px;
+    display: none;
+    
+}
+#close1{
+    transform: rotate(180deg);
+    position: relative;
+    top: 105px;
+    left: 535px;
+}
+.item2{
+    color: rgb(63, 62, 62);
+    font-size: 14px;
+    position: relative;
+    top: 130px;
+    left: 560px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 150px;
+    height: 110px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 22px;
+    display: none;
+}
+#close2{
+    transform: rotate(180deg);
+    position: relative;
+    top: 105px;
+    left: 690px;
+}
+.item3{
+    color: rgb(63, 62, 62);
+    font-size: 14px;
+    position: relative;
+    top: 130px;
+    left: 710px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 150px;
+    height: 90px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 22px;
+    display: none;
+}
+#close3{
+    transform: rotate(180deg);
+    position: relative;
+    top: 105px;
+    left: 840px;
+}
+
+.second>h3{
+    color: #fff;
+    position: absolute;
+    top: 99px;
+    left: 590px;
+}
+.second #arrow2{
+    position: absolute;
+    top: 113px;
+    left: 690px;
+}
+.second>h4{
+    display: none;
+}
+.third>h3{
+    color: #fff;
+    position: absolute;
+    top: 99px;
+    left: 750px;
+}
+.third #arrow3{
+    position: absolute;
+    top: 113px;
+    left: 840px;
+}
+.third>h4{
+    display: none;
+}
+
+/*  */
+.open>.item{
+    display: block;
+}
+
+.open>.arrow-down{
+    display: none;
+}
+.open>.arrow-up{
+    display: inline;
+}
+
+#log{
+    color: #fff;
+    position: absolute;
+    top: 105px;
+    right: 360px;
+}
+
+#signup{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    color: rgb(248, 131, 151);
+    font-weight: border;
+    font-size: 16px;
+    background-color: #fff;
+    border: none;
+    position: absolute;
+    top: 96px; 
+    right: 190px;
+}
+#title{
+    color: #fff;
+    font-size: 60px;
+    position: absolute;
+    top: 260px;
+    left: 550px;
+}
+#sub{
+    color: #fff;
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    top: 380px;
+    left: 700px;
+}
+#btn1{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 450px;
+    left: 770px;
+    border-radius: 30px;
+    color:  rgb(248, 131, 151);
+    background-color:#fff;
+    font-weight: bolder;
+    border: none;
+}
+#btn2{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 450px;
+    left: 920px;
+    border-radius: 30px;
+    color:  #fff;
+    background-color: rgba( 255, 0,0,0.4 );
+    font-weight: bolder;
+    border: 1px solid #fff;
+}
+#section2{
+    display: flex;
+    flex-direction: column;
+}
+#section2 #img1{
+    position: absolute;
+    right: -300px;
+}
+#section2>h2{
+    display: flex;
+    flex-direction: column;
+    top: 750px;
+    left: 680px;
+    position: absolute;
+    font-size: 30px;
+}
+#section2 #title2{
+    position: relative;
+    top: 320px;
+    left: 340px;
+    font-size: 25px;
+}
+#section2 #sub2{
+    position: relative;
+    top: 340px;
+    left: 340px;
+    width: 450px;
+    color: gray;
+    font-size: 13px;
+}
+#title3{
+    position: relative;
+    top: 360px;
+    left: 340px;
+    font-size: 25px;
+}
+#sub3{
+    position: relative;
+    top: 380px;
+    width: 450px;
+    color: gray;
+    font-size: 13px;
+    left: 340px;
+}
+
+#section3{
+    border: 1px solid bleck;
+    background-color: rgb(56, 56, 56);
+    position: relative;
+    top: 700px;
+    height: 400px;
+    width: 100%;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+#section3 #phone{
+    position: absolute;
+    top: -15%;
+    left: 10%;
+}
+#section3 #title4{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 25%;
+    left: 50%;
+}
+#section3 #sub4{
+    font-weight:bold;
+    position: relative;
+    width: 500px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    top: 33%;
+    left: 50%;
+    color:#fff;
+}
+
+
+#section4 #title5{
+    font-size: 30px;
+    position: relative;
+    top: 300px;
+    left: 50%;
+}
+#section4 #sub5{
+    color: gray;
+    width: 900px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    position: relative;
+    top: 350px;
+    left: 50%;
+    line-height: 30px;
+}
+#section4 #title6{
+    font-size: 25px;
+    position: relative;
+    top: 420px;
+    left: 50%;
+}
+#section4 #sub6{
+    color: gray;
+    width: 900px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    position: relative;
+    top: 470px;
+    left: 50%;
+    line-height: 30px;
+}
+
+
+#section4 #laptop{
+    position: relative;
+    top: 800px;
+    left: 150px;
+    width: 600px;
+}
+    
+
